@@ -18,9 +18,11 @@
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
             # C++ Compiler is already part of stdenv
+            python3
             boost
             catch2
             cmake
+            xcb-util-cursor
           ];
         };
       };

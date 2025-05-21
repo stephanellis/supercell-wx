@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 ./tools/setup-common.sh
 
 build_dir=${1:-build-release}
